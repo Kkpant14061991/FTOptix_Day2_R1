@@ -1,0 +1,99 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Id: g=753b6dfec2f786896dbc71d773500e6e
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable2_Bool
+  Id: g=e7a760d650c80e4a56e9fb69bb586890
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable1Changed
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Variable1"
+- Name: MyMotorUdt
+  Id: g=4e64620b8a6b1105da3cf3b6a994c3bf
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: BG
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#00000000"
+- Name: MyMotorUdt1
+  Id: g=42ba21b3efe150712ea5cb2258f1a7e7
+  Type: MyMotorUdt
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: BG
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#5fde71d8"
+- Name: MyMotorUdt2
+  Id: g=189a8f70f141677a264d8c06fd41364a
+  Type: MyMotorUdt
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: BG
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#b1f4c5c5"
+- Name: MyMotorUdt3
+  Type: MyMotorUdt
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: BG
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ee0a0acc"
